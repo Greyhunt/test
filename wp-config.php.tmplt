@@ -1,0 +1,10 @@
+{{with secret "secret/database"}}
+<?php
+define('DB_NAME', '{{.Data.name}}');
+
+define('DB_USER', '{{.Data.user}}');
+
+define('DB_PASSWORD', '{{.Data.pass}}');
+
+define('DB_HOST', '{{key "host"}}');
+{{end}}

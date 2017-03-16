@@ -1,0 +1,15 @@
+{
+ "advertise_addr": "192.168.0.102",
+ "bootstrap_expect": 2,
+ "client_addr": "0.0.0.0",
+ "data_dir": "/opt/consul",
+ "datacenter": "ua",
+ "log_level": "ERR",
+ "node_name": "192.168.0.101",
+ "rejoin_after_leave": true,
+ "retry_join": [
+   "192.168.0.101"
+  ],
+ "server": true,
+ "ui_dir": "/opt/consul/ui"
+}
